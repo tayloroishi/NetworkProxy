@@ -1,3 +1,6 @@
+#[path = "libs/server.rs"] pub mod server;
+
 fn main() {
-    println!("Hello World!");
+    let _server = server::Server {};
+    _server.start();
 }
